@@ -1,0 +1,88 @@
+body
+{
+    background-image:url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg');
+}
+#login
+{
+    height:400px;
+    width:600px;
+    border: 2px blue ridge;
+    margin: auto;
+    margin-top:120px;
+    border-radius:30px;
+    background-color:rgba(0, 0, 255, 0.5);
+}
+#user,#password
+{
+    margin-top: 60px;
+    height:50px;
+    width:300px;
+    opacity:0.8;
+    border-radius:7px;
+}
+#btn1,#btn2
+{
+    height:50px;
+    width:200px;
+    background-color: purple;
+    opacity:0.8;
+    color:white;
+    font-size: large;
+}
+#btn1,#btn2:hover
+{
+    height:50px;
+    width:200px;
+    background-color:green;
+    opacity:0.8;
+    color:white;
+    font-size: large;
+}
+#anchor
+{
+    color:white;
+}
+form
+{
+    width:1000px;
+    margin:auto;
+    border-radius:30px;
+    background-color:rgba(0, 0, 255, 0.5);
+    padding: 50px;
+}
+#fname,#lname,#email,#username,#pass,#cpass
+{
+    margin-top: 60px;
+    height:50px;
+    width:800px;
+    opacity:0.8;
+    border-radius:7px;   
+}
+label
+{
+    font-size:large;
+    color:white;
+}
+select
+{
+    width: 800px;
+    height:50px;
+}
+#btn3
+{
+    height:50px;
+    width:200px;
+    background-color: purple;
+    opacity:0.8;
+    color:white;
+    font-size: large;
+}
+#btn3:hover
+{
+    height:50px;
+    width:200px;
+    background-color: green;
+    opacity:0.8;
+    color:white;
+    font-size: large;
+}

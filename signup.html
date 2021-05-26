@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Login</title>
+<link href="style2.css" type="text/css" rel="stylesheet"/>
+<script src="script.js"></script>
+</head>
+<script>
+function login()
+{
+    var a=document.getElementById("user").value;
+    var b=document.getElementById("password").value;
+    if(a=="admin@123" && b=="admin123")
+    {
+        alert("You are ready to customize admin");
+        location.href="menu-item-list-admin.html";
+    }
+    else if(a=="user@123" && b=="user123")
+    {
+        alert("Welcome ..You are ready to eat");
+        location.href="menu-item-list-customer.html";
+    }
+    else
+    {
+        alert("Sorry ..Eat at home");
+    }
+}
+</script>
+<body>
+<div id="login">
+<center>
+<input type="text" id="user" placeholder="Enter Your Login Id" required="required" autofocus="autofocus" autocomplete="autocomplete"/>
+<input type="password" id="password" placeholder="Enter Password" required="required"/>
+<br><br>
+<input type="checkbox" onclick="myFunction()"/><font color="white">Show Password</font>
+<br><br><br>
+<input type="button" value="Log In" id="btn1" onclick="login()"/>&nbsp;&nbsp;&nbsp;
+<br><br>
+<a href="#" id="anchor">Already have an account</a>
+</center>
+</div>
+</body>
+</html>
